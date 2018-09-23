@@ -29,7 +29,7 @@ public class CTamLib
         String month = str.substring(0,2);
         String date = str.substring(3,5);
         String year = str.substring(6,10);
-        return (date + "-" + month + "-" + year);
+        return (date + " - " + month + " - " + year);
     }
 
     /*
