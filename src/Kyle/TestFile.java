@@ -7,8 +7,9 @@ public class TestFile
         System.out.println(CTamLib.isPalindrome("racecar"));
         System.out.println(CTamLib.dateStr("10/06/2003"));
         System.out.println(CTamLib.cutOut("TodayIsNotWarm","Not"));
-        System.out.println(CTamLib.isFibonnaci(8));
+        System.out.println(CTamLib.isFibonacci(8));
         System.out.println(CTamLib.sumUpTo(5));
+        System.out.println(CTamLib.stringUnion("hello","hola","nihao"));
         System.out.println(CTamLib.leastCommonMultiple(1,5,6));
     }
 }
